@@ -63,7 +63,6 @@ h2 {
   margin-bottom: 14px;
 }
 
-/* Navigation */
 
 header {
   position: sticky;
@@ -136,7 +135,6 @@ header {
   color: var(--text);
 }
 
-/* Hero with real photographic background */
 
 .hero {
   position: relative;
@@ -146,7 +144,6 @@ header {
   overflow: hidden;
   background-color: #e9ecec;
 
-  /* Real laptop/workspace photograph */
   background-image:
     linear-gradient(
       90deg,
@@ -217,7 +214,6 @@ header {
   gap: 12px;
 }
 
-/* General sections */
 
 section { padding: 88px 0; }
 
@@ -267,7 +263,6 @@ section { padding: 88px 0; }
   margin-bottom: 0;
 }
 
-/* Skills */
 
 .skills-heading, .projects-heading {
   margin-bottom: 35px;
@@ -310,7 +305,6 @@ section { padding: 88px 0; }
   margin-bottom: 0;
 }
 
-/* Projects */
 
 .projects { background: #eef1f2; }
 
@@ -435,7 +429,6 @@ section { padding: 88px 0; }
 
 .project-link:hover { text-decoration: underline; }
 
-/* Education and goals */
 
 .education-grid {
   display: grid;
@@ -518,7 +511,6 @@ section { padding: 88px 0; }
   color: #aebbc3;
 }
 
-/* Motion */
 
 .reveal {
   opacity: 0;
@@ -537,7 +529,6 @@ section { padding: 88px 0; }
   .reveal { opacity: 1; transform: none; }
 }
 
-/* Responsive design */
 
 @media (max-width: 850px) {
   .nav-links { gap: 15px; }
@@ -836,17 +827,14 @@ section { padding: 88px 0; }
       </div>
 
       <div class="contact-info">
-        <!-- Replace this with your real email -->
         <a id="emailLink" href="mailto:theofficialmariyam@gmail.com">
           Email: theofficialmariyam@gmail.com
         </a>
 
-        <!-- Replace the URL with your own LinkedIn profile -->
         <a href="https://www.linkedin.com/in/mariyamkhan-tech" target="_blank" rel="noopener noreferrer">
           LinkedIn profile ↗
         </a>
 
-        <!-- Replace with your GitHub profile -->
         <a href="https://github.com/theofficialmariyam-techy" target="_blank" rel="noopener noreferrer">
           GitHub profile ↗
         </a>
@@ -862,7 +850,6 @@ section { padding: 88px 0; }
 </footer>
 
 <script>
-/* Reveal content when it enters the screen */
 (function () {
   var items = document.querySelectorAll(".reveal");
 
@@ -888,7 +875,6 @@ section { padding: 88px 0; }
   document.getElementById("year").textContent =
     new Date().getFullYear();
 
-  /* Project links open an email after you add your real address */
   document.querySelectorAll("[data-project]").forEach(function (link) {
     link.addEventListener("click", function () {
       var email = "theofficialmariyam@gmail.com";
